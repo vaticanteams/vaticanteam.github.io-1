@@ -1,0 +1,23 @@
+.typingtitle{
+    width:250px;
+    white-space:nowrap;
+    overflow:hidden;
+    -webkit-animation: type 1s steps(50, end);
+	animation: type 1s steps(50, end);
+}
+
+.typingsubtitle{
+    width:450px;
+    white-space:nowrap;
+    overflow:hidden;
+    -webkit-animation: type 2s steps(50, end);
+	animation: type 2s steps(50, end);
+}
+
+@-webkit-keyframes type{
+    from { width: 0;}
+}
+
+@keyframes type{
+    from { width: 0;}
+}
